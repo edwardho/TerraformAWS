@@ -32,6 +32,6 @@ We set up the following architechture:
    Update owners to that id and update the AMI server id in values as well
 7. In variables.tf change the host default value to "windows" if you are using windows, if not keep it as "linux"
 8. To deploy the architechture run `terraform apply -auto-approve` in the terminal which will deploy the architecture without a check
-9. You will now be able to ssh into the EC2 Instance via the VSCode command palette using Remote-SSH: Connect to Host and choosing the output ip listen in the terminal
+9. You will now be able to ssh into the EC2 Instance via the VSCode command palette using Remote-SSH: Connect to Host and choosing the output ip listed in the terminal
 10. To destroy the architechture run `terraform destroy -auto-approve` in the terminal which will deploy the architecture without a check
 11. Please see Terraform's list of commands here: https://developer.hashicorp.com/terraform/cli/commands
